@@ -186,6 +186,7 @@ local Button = Tab:CreateButton({
    game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
    wait(0.2)
    message = "🆆🅰🅽🅺🅴🆁"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
    end,
 })
 
