@@ -117,13 +117,21 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "pedo",
+   Name = "support hitler",
    Callback = function()
    message = "🅸"
    game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
    message = "🆂🆄🅿🅿🅾🆁🆃"
    game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
    message = "🅷🅸🆃🅻🅴🆁🆁"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "fucking kill your self nigger",
+   Callback = function()
+   message = "🅵🆄🅲🅺🅸🅽🅶 ​ 🅺🅸🅻🅻 ​ 🆈🅾🆄🆁 ​ 🆂🅴🅻🅵 ​ 🅽🅸🅶🅶🅴🆁"
    game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
    end,
 })
