@@ -53,7 +53,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "N",
+   Name = "Ns",
    Callback = function()
    message = "🅽🅸🅶🅶🅴🆁🆂"
    game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
@@ -72,6 +72,46 @@ local Button = Tab:CreateButton({
    Name = "you",
    Callback = function()
    message = "🆈🅾🆄"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "shit",
+   Callback = function()
+   message = "🆂🅷🅸🆃"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "gay",
+   Callback = function()
+   message = "🅶🅰🆈"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "faggot",
+   Callback = function()
+   message = "🅵🅰🅶🅶🅾🆃"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "lesbian",
+   Callback = function()
+   message = "🅻🅴🆂🅱🅸🅰🅽"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "pedo",
+   Callback = function()
+   message = "🅿🅴🅳🅾"
    game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
    end,
 })
