@@ -116,6 +116,18 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "pedo",
+   Callback = function()
+   message = "🅸"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   message = "🆂🆄🅿🅿🅾🆁🆃"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   message = "🅷🅸🆃🅻🅴🆁🆁"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   end,
+})
+
 local Input = Tab:CreateInput({
    Name = "Input Example",
    PlaceholderText = "Input Placeholder",
