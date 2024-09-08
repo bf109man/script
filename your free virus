@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("chat word", nil) -- Title, Image
+local Tab = Window:CreateTab("chat 2", nil) -- Title, Image
     
 local Button = Tab:CreateButton({
    Name = "fuck",
