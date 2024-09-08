@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("chat 2", nil) -- Title, Image
+local Tab = Window:CreateTab("chat 1", nil) -- Title, Image
     
 local Button = Tab:CreateButton({
    Name = "fuck",
@@ -128,12 +128,24 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("chat word", nil) -- Title, Image
+local Tab = Window:CreateTab("chat 2", nil) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "fucking kill your self nigger",
    Callback = function()
-   message = "🅵🆄🅲🅺🅸🅽🅶<>🅺🅸🅻🅻<>🆈🅾🆄🆁<>🆂🅴🅻🅵<>🅽🅸🅶🅶🅴🆁"
+   message = "🅵🆄🅲🅺🅸🅽🅶"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   wait(0.2)
+   message = "🅺🅸🅻🅻"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   wait(0.2)
+   message = "🆈🅾🆄🆁"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   wait(0.2)
+   message = "🆂🅴🅻🅵"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   wait(0.2)
+   message = "🅽🅸🅶🅶🅴🆁"
    game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
    end,
 })
