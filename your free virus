@@ -173,6 +173,22 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "fucking kill your self nigger",
+   Callback = function()
+   message = "🅿🅸🆂🆂"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   wait(0.2)
+   message = "🅾🅵"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   wait(0.2)
+   message = "🆈🅾🆄"
+   game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(message)
+   wait(0.2)
+   message = "🆆🅰🅽🅺🅴🆁"
+   end,
+})
+
 local Input = Tab:CreateInput({
    Name = "Input Example",
    PlaceholderText = "Input Placeholder",
