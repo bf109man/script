@@ -61,3 +61,4 @@ local Button = Tab:CreateButton({
    Callback = function()
    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/bf109man/script/main/infinte%20eild"))()
    end,
+})
