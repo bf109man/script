@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "chat passer v1",
+   Name = "chat passer v2",
    LoadingTitle = "Femboy poductions",
    LoadingSubtitle = "by Acatking123",
    ConfigurationSaving = {
@@ -32,5 +32,12 @@ local Button = Tab:CreateButton({
    Name = "click then type in chat",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/BingusWR/wdwd/main/Roblox%20Bypass%20chat%20Script"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "arsanal gui",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/J0CKSTRAP/RainHub/main/RainHubOP"))()
    end,
 })
