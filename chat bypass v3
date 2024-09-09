@@ -7,4 +7,11 @@ local FarmTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+Tab:AddButton({
+	Name = "press then type in chat",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
 OrionLib:Init()
