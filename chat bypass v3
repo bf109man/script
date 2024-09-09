@@ -14,16 +14,6 @@ FarmTab:AddButton({
 	end
 })
 
-FarmTab:AddButton({
-	Name = "press then type in chat",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/BingusWR/wdwd/main/Roblox%20Bypass%20chat%20Script"))()
-	OrionLib:MakeNotification({
-	Name = "notification",
-	Content = "chat bypass enaled go and chat",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-  	end    
-})
+
 
 OrionLib:Init()
