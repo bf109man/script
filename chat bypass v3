@@ -3,6 +3,7 @@ local Window = OrionLib:MakeWindow({Name = "chat bypass plus more", HidePremium 
 
 local Tab = Window:MakeTab({
 	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
