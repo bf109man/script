@@ -41,3 +41,9 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/J0CKSTRAP/RainHub/main/RainHubOP"))()
    end,
 })
+
+local Button = Tab:CreateButton({
+   Name = "infinite yeild",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/bf109man/script/main/infinte%20eild"))()
+   end,
