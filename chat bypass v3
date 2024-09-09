@@ -19,4 +19,15 @@ FarmTab:AddButton({
   	end    
 })
 
+FarmTab:AddButton({
+	Name = "press then type in chat",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "notification",
+	Content = "chat bypass enaled go and chat",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+  	end    
+})
+
 OrionLib:Init()
