@@ -7,7 +7,7 @@ local FarmTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddButton({
+FarmTab:AddButton({
 	Name = "press then type in chat",
 	Callback = function()
       		print("button pressed")
