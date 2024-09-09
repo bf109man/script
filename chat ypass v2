@@ -31,6 +31,20 @@ local Tab = Window:CreateTab("chat 1", nil) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "click then type in chat",
    Callback = function()
+   Rayfield:Notify({
+   Title = "Notification Title",
+   Content = "Notification Content",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
    loadstring(game:HttpGet("https://raw.githubusercontent.com/BingusWR/wdwd/main/Roblox%20Bypass%20chat%20Script"))()
    end,
 })
