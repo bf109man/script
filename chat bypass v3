@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "chat bypass plus more", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 
-local Tab = Window:MakeTab({
-	Name = "Tab 1",
+local FarmTab = Window:MakeTab({
+	Name = "chat bypass",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
