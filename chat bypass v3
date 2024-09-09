@@ -10,7 +10,7 @@ local FarmTab = Window:MakeTab({
 FarmTab:AddButton({
 	Name = "press then type in chat",
 	Callback = function()
-      		print("button pressed")
+	print("button pressed")
   	end    
 })
 
