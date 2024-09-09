@@ -6,3 +6,8 @@ local Tab = Window:MakeTab({
 	Name = "chat bypass",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+
+local Section = Tab:AddSection({
+	Name = "Section"
+
+OrionLib:Init()
