@@ -14,6 +14,13 @@ FarmTab:AddButton({
 	end
 })
 
+FarmTab:AddButton({
+	Name = "arsanal gui",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BingusWR/wdwd/main/Roblox%20Bypass%20chat%20Script"))() 
+	end
+})
+
 
 
 OrionLib:Init()
